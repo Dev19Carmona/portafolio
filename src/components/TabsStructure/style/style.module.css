@@ -1,0 +1,63 @@
+.colors{
+  --BG:#1E1E1F;
+  --PRIMARY:#FFDB70;
+  --LETTER-1: #FFF;
+  --LETTER-2: #575555;
+
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #1E1E1F  ;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  border: 1px solid gray;
+  
+}
+.header, .footer, .body, .pageName, .tabs {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 100%;
+  /* border-radius: 20px; */
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #292929;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.tab {
+  position: relative; /* Agregamos posición relativa para poder usar position absolute en el pseudo-elemento */
+  color: #bbb;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: 200;
+  transition: color 0.3s ease-in-out;
+}
+.tabSelected{
+  color: #FFDB70;
+  font-weight: bold;
+}
+.tab:hover{
+  color: gray;
+}
+.pageName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #bbb;
+}

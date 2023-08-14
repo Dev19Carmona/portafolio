@@ -1,0 +1,18 @@
+.container{
+    height: 100%;
+    display: grid;
+    color: white;
+    grid-template-rows: repeat(4,1fr);
+}
+.bodyStep{
+    /* border: 1px solid white; */
+}
+#about{
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.5;
+    color: #bbb;
+    
+}

@@ -1,0 +1,15 @@
+/* :root{
+    --BG-COLOR: #1E1E1F;
+    --PRIMARY-COLOR: #FDCC67;
+  } */
+  ::selection {
+    background-color: #FFDB70; /* Color de fondo */
+    color: black; /* Color del texto */
+  }
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}

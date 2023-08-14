@@ -1,0 +1,19 @@
+.colors{
+    --BG:#1E1E1F;
+    --PRIMARY:#FFDB70;
+    --LETTER-1: #FFF;
+    --LETTER-2: #c2bcbc;
+  
+  }
+
+.container {
+    background-color: #121212;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 40px; 
+    padding-right: 90px;
+    gap: 50px; 
+    box-sizing: border-box; 
+}
