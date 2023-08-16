@@ -9,6 +9,8 @@ export const useSideBarLayout = () => {
     delete data.name;
     delete data.profession;
     delete data.aboutMe;
+    delete data.fameworksAndLibraries;
+    delete data.databases;
     
     const userDataArray = Object.entries(data);
     const mappedData = userDataArray.map(([key, value]) => {

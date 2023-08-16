@@ -1,5 +1,5 @@
 export const useTabs = () => {
-    const tabsName = ["About Me", "Resume", "Portfolio", "Blog", "Contact"]
+    const tabsName = ["Sobre mi", "Resume", "Portfolio", "Blog", "Contact"]
     return{
         tabsName
     }

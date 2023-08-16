@@ -1,18 +1,54 @@
-.container{
-    height: 100%;
+.container {
     display: grid;
     color: white;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
-.bodyStep{
-    /* border: 1px solid white; */
+
+.bodyStep {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 2%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-#about{
+
+#about {
+    height: 100%;
     text-align: justify;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    line-height: 1.5;
+    margin-top: 7%;
+    line-height: 2;
     color: #bbb;
+    font-size: 20px;
+}
+
+#wid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#frameworks{
+    display: grid;
+    grid-template-rows: 2;
+    gap: 50px;
     
+}
+#databases{
+    display: grid;
+    grid-template-rows: 2;
+}
+.cardList{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+#aboutMe{
+    display: inline-block;
+    overflow: hidden;
 }

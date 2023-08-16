@@ -1,0 +1,56 @@
+.colors {
+  --BG: #1E1E1F;
+  --PRIMARY: #FFDB70;
+  --LETTER-1: #FFF;
+  --LETTER-2: #c2bcbc;
+
+}
+.container{
+  display: grid;
+  grid-template-columns: 2;
+  box-shadow: -1px -1px hwb(0 100% 0% / 0.1);
+  border-radius: 8px;
+}
+.child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  font-size: 25px;
+  border-bottom: 1px solid hwb(0 100% 0% / 0.1);
+  background-color: #222222;
+  padding: 2%;
+  gap: 10px;
+}
+
+.iconClass {
+  font-size: 35px;
+  color: #FFDB70;
+}
+
+
+.descriptionClass {
+  display: block;
+  color: #fff;
+  font-weight: 100;
+  background-color: #222222;
+  padding: 5%;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.nameClass {
+  color: white;
+  font-weight: 400;
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch; 
+  align-items: stretch;
+  gap: 5px;
+}

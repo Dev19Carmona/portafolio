@@ -18,7 +18,6 @@ import {
 export const SideBarLayout = () => {
   const { dataCardContact } = useSideBarLayout();
   const dataContact = dataCardContact();
-  console.log(dataContact, userData);
   return (
     <div className={container}>
       <div className={parentProfile}>

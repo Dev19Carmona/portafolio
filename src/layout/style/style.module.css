@@ -7,9 +7,8 @@
   }
 
 .container {
-    background-color: #121212;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: 20% 80%;
     padding: 40px; 
@@ -17,3 +16,27 @@
     gap: 50px; 
     box-sizing: border-box; 
 }
+
+#fixed_button{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  background-color: #44BF54;
+  cursor: pointer;
+  box-shadow: 0px 9px 9px rgba(190, 188, 188, 0.1);
+  z-index: 999;
+  font-size: 25px;
+}
+#fixed_button:hover{
+  font-size: 30px;
+  border: 1px solid #B2B2B2;
+}
+
+
+
+
+
