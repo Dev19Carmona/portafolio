@@ -50,5 +50,5 @@ export  const userData = {
     },
   ],
 }
-export const AVATAR_PRUEBA = "https://www.iconarchive.com/download/i106641/diversity-avatars/avatars/cristiano-ronaldo.1024.png"
+export const AVATAR_PRUEBA = "../public/img/avatar.png"
 export const WHATAPP_COLOR= "#44BF54"
