@@ -11,7 +11,7 @@ import {
   name,
   textFooter,
 } from "./style/style.module.css";
-const { tabsName } = useTabs();
+
 import { useTabs } from "@/hooks/useTabs";
 import { BodyAbout } from "../BodyAbout";
 import { FaReact } from "react-icons/fa";
@@ -21,6 +21,7 @@ import { Grid, Tooltip } from "@chakra-ui/react";
 import { BodyResume } from "../BodyResume";
 
 export const TabsSctructure = () => {
+  const { tabsName } = useTabs();
   const [selectedDiv, setSelectedDiv] = useState(tabsName[0]);
   const handleDivClick = (divIndex) => {
     setSelectedDiv(divIndex);

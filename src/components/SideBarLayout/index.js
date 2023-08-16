@@ -14,6 +14,7 @@ import {
   key,
   value,
 } from "./style/style.module.css";
+import Image from "next/image";
 
 export const SideBarLayout = () => {
   const { dataCardContact } = useSideBarLayout();
@@ -22,7 +23,7 @@ export const SideBarLayout = () => {
     <div className={container}>
       <div className={parentProfile}>
         <div className={image}>
-          <img src={AVATAR_PRUEBA} alt="Profile" width="80"/>
+          <Image src={AVATAR_PRUEBA} alt="Profile" width="80"/>
         </div>
 
         <div className={name}>{userData.name}</div>
