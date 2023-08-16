@@ -18,6 +18,7 @@ import { FaReact } from "react-icons/fa";
 import { SiChakraui } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { Grid, Tooltip } from "@chakra-ui/react";
+import { BodyResume } from "../BodyResume";
 
 export const TabsSctructure = () => {
   const [selectedDiv, setSelectedDiv] = useState(tabsName[0]);
@@ -42,7 +43,15 @@ export const TabsSctructure = () => {
           ))}
         </div>
       </div>
-      <div className={body}>{selectedDiv === tabsName[0] && <BodyAbout />}</div>
+      {
+        selectedDiv === tabsName[0] &&
+      <div className={body}>{ <BodyAbout />}</div>
+      }
+      {
+        selectedDiv === tabsName[1] &&
+      <div className={body}>{ <BodyResume/>}</div>
+      }
+      
       <div className={footer}>
         <p id={textFooter}>
           Designed by the developer Camilo Carmona with the tools:{" "}

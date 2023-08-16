@@ -1,7 +1,7 @@
 import { GrGraphQl } from "react-icons/gr";
 import { BiLogoNodejs, BiLogoMongodb } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
-import { SiMongoose } from "react-icons/si";
+import { SiExpress, SiMongoose } from "react-icons/si";
 
 
 export  const userData = {
@@ -21,6 +21,11 @@ export  const userData = {
       name: "Node JS",
       description: "El motor de backend que gestiona las solicitudes de los usuarios y maneja la lógica detrás de escena"
     },
+    // {
+    //   icon:<SiExpress color="#036E02"/>,
+    //   name: "Express JS",
+    //   description: "Marco de desarrollo ligero y flexible para Node.js, diseñado para simplificar la creación de aplicaciones web y APIs con eficiencia y estructura. Con su enfoque minimalista, Express.js permite a los desarrolladores construir de manera elegante y ordenada, liberándolos de las complejidades subyacentes."
+    // },
     {
       icon:<FaReact color="#139ECA"/>,
       name: "React JS",

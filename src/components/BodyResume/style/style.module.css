@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    color: white;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.bodyStep {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 2%;
+    text-align: start;
+    margin-left: 5%;
+    margin-right: 5%;
+}

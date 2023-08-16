@@ -12,7 +12,7 @@ import {
   databases,
   aboutMe,
 } from "./style/style.module.css";
-import { Center } from "@chakra-ui/react";
+import { Center, SimpleGrid } from "@chakra-ui/react";
 
 export const BodyAbout = () => {
   return (

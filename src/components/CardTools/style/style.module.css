@@ -38,6 +38,7 @@
   letter-spacing: 1px;
   font-size: 20px;
   line-height: 1.2;
+  text-align: justify;
 }
 .nameClass {
   color: white;
