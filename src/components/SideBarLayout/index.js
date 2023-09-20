@@ -14,6 +14,7 @@ import {
   key,
   value,
 } from "./style/style.module.css";
+
 import Image from "next/image";
 
 export const SideBarLayout = () => {
@@ -23,7 +24,7 @@ export const SideBarLayout = () => {
     <div className={container}>
       <div className={parentProfile}>
         <div className={image}>
-          <Image src={AVATAR_PRUEBA} alt="Profile" width="80"/>
+          <Image height={80} src={'/public/img/avatar.png'} alt="Profile" width={80}/>
         </div>
 
         <div className={name}>{userData.name}</div>

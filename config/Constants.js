@@ -50,5 +50,5 @@ export  const userData = {
     },
   ],
 }
-export const AVATAR_PRUEBA = "../public/img/avatar.png"
+export const AVATAR_PRUEBA = '/public/img/avatar.png'
 export const WHATAPP_COLOR= "#44BF54"
